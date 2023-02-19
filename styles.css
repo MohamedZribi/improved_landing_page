@@ -1,0 +1,32 @@
+/* body {
+
+} */
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap /* This is to make the header responsive, i.e; When scrolling on a mobile phone or when resizing the browser screen, elements will wrap */
+                    /* wrapping: cause (a word or unit of text) to be carried over to a new line automatically as the margin is reached, or to fit around embedded features such as pictures.*/
+}
+
+.logo-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 25px;
+}
+
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none; /* Removing bullets from the list items*/
+    gap: 20px; 
+    text-decoration: none;
+
+}
+
